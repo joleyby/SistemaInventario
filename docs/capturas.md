@@ -28,7 +28,7 @@ Registros desactivados de categorías, suplidores, productos y usuarios, con opc
 
 
 
-[Papelera de elementos eliminados](capturas/papelera.png)
+![Papelera de elementos eliminados](capturas/papelera.png)
 
 
 
