@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+errores.log
+build/*.exe
+build/*.dll
+build/*.pdb
+
+Fotos/

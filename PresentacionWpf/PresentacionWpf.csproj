@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- Permite compilar proyectos net10.0-windows desde macOS/Linux (sólo compila; ejecutar requiere Windows). -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>SistemaInventarioWpf</AssemblyName>
+    <RootNamespace>PresentacionWpf</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Igual que Windows Forms: NO referencia AccesoDatos; sólo LogicaNegocio y Entidades. -->
+    <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj" />
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+  </ItemGroup>
+</Project>
+
+
+

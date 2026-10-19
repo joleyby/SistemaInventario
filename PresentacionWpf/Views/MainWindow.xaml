@@ -1,0 +1,24 @@
+﻿<Window x:Class="PresentacionWpf.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Sistema de Gestión de Inventario (WPF · MVVM)"
+        Width="1200" Height="720" MinWidth="1000" MinHeight="600"
+        WindowStartupLocation="CenterScreen">
+    <TabControl SelectedIndex="{Binding PestanaActiva}" Margin="4">
+        <TabItem Header="Categorías">
+            <ContentControl Content="{Binding Categorias}"/>
+        </TabItem>
+        <TabItem Header="Suplidores">
+            <ContentControl Content="{Binding Suplidores}"/>
+        </TabItem>
+        <TabItem Header="Productos">
+            <ContentControl Content="{Binding Productos}"/>
+        </TabItem>
+        <TabItem Header="Reportes">
+            <ContentControl Content="{Binding Reportes}"/>
+        </TabItem>
+    </TabControl>
+</Window>
+
+
+

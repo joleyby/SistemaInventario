@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <!-- Permite compilar proyectos net10.0-windows desde macOS/Linux (sólo compila; ejecutar requiere Windows). -->
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>SistemaInventario</AssemblyName>
+    <RootNamespace>Presentacion</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- Presentación NO referencia AccesoDatos: solo usa LogicaNegocio y Entidades. -->
+    <ProjectReference Include="..\LogicaNegocio\LogicaNegocio.csproj" />
+    <ProjectReference Include="..\Entidades\Entidades.csproj" />
+  </ItemGroup>
+</Project>
+
+
+
