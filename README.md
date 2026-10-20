@@ -167,3 +167,6 @@ PresentacionWpf/
 4. **Errores en tiempo de ejecución:** revisar `errores.log`, en la carpeta del ejecutable.
 
 
+# video
+[Click](https://universidaduce-my.sharepoint.com/:v:/g/personal/jb2024-1796_uce_edu_do/IQBvTuW7F-h3QYkE_SAM028WATQ-oAMBug9Z3ghB4EBJUjY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SV9jjY)
+
